@@ -31,16 +31,12 @@ ENV/
 *.swp
 *.swo
 
-# Project specific
+# Project specific - only ignore temporary files
 *.log
-*.csv
-*.joblib
-*.pkl
-models/
-data/raw/
-data/processed/
-analysis_output/
-documentation/
+*.tmp
+*.temp
+*.bak
+*.backup
 
 # Jupyter Notebook
 .ipynb_checkpoints
