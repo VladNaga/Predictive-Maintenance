@@ -1,0 +1,49 @@
+{
+    "components": {
+        "data_collection": {
+            "description": "Real-time sensor data collection from manufacturing equipment",
+            "technologies": [
+                "IoT sensors",
+                "SCADA systems",
+                "Data acquisition systems"
+            ]
+        },
+        "data_processing": {
+            "description": "Data preprocessing and feature engineering pipeline",
+            "technologies": [
+                "Apache Spark",
+                "Python",
+                "Pandas"
+            ]
+        },
+        "model_serving": {
+            "description": "Model deployment and prediction service",
+            "technologies": [
+                "FastAPI",
+                "Docker",
+                "Kubernetes"
+            ]
+        },
+        "alerting_system": {
+            "description": "Real-time alert generation and notification system",
+            "technologies": [
+                "Kafka",
+                "Slack API",
+                "Email notifications"
+            ]
+        },
+        "dashboard": {
+            "description": "Business intelligence and monitoring dashboard",
+            "technologies": [
+                "Grafana",
+                "Tableau",
+                "Power BI"
+            ]
+        }
+    },
+    "integration_points": {
+        "erp_system": "Integration with existing ERP for maintenance scheduling",
+        "crm_system": "Customer notification and service planning",
+        "maintenance_system": "Automated maintenance work order generation"
+    }
+}

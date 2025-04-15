@@ -1,0 +1,31 @@
+{
+    "disclaimer": "This is a theoretical analysis based on industry standards and assumptions. Actual values may vary significantly.",
+    "cost_savings": {
+        "early_detection": 127500.0,
+        "downtime_reduction": 800000,
+        "total_annual_savings": 927500.0,
+        "assumptions": {
+            "avg_maintenance_cost": 5000,
+            "avg_downtime_cost": 1000,
+            "avg_repair_time": 8,
+            "annual_equipment_count": 1000,
+            "early_detection_savings_rate": 0.3,
+            "note": "These are theoretical values for demonstration purposes only"
+        }
+    },
+    "reliability_metrics": {
+        "prediction_accuracy": 0.95,
+        "failure_detection_rate": 0.85,
+        "false_alarm_rate": 0.09999999999999998
+    },
+    "customer_impact": {
+        "reduced_downtime_hours": 800,
+        "improved_service_quality": 90.0,
+        "proactive_maintenance_rate": 0.85
+    },
+    "model_performance": {
+        "true_positives": 85,
+        "false_negatives": 15,
+        "total_samples": 1000
+    }
+}
